@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>What2Watch?	</title>
+	<link href='http://fonts.googleapis.com/css?family=Rochester' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+
+</head>
+<body>
+	<div class="container clearfix" >
+		<img class="logo" src="images/WTW.png" alt="WhatToWatch? logo">
+		<div class="wrapper clearfix">
+			<div class="intro">
+				<h1>What2Watch?</h1>
+				<p>There’s nothing on T.V.!!! Sound familiar? No kidding! In this modern age we have access to hundreds of channels, multiple streaming services & mountains of unwatched dvds… yet still no idea what to watch!</p>
+				<p>Well have no fear, What2Watch? is here. W2W? is a fast & easy way to simplify your search and find something awesome to watch now!! Find your movie and enjoy!</p>
+			</div>
+
+			<div class="search">
+				<form class="filterGenre">
+					<label for="genre">Search by Genre</label>
+					<select name="genre" id="genre"></select>
+					<input type="submit" class="submit" name="submitGenre" value="Search">
+				</form>
+					
+				<form class="filterActor">
+					<label for="actor">Search by Actor</label>
+					<input type="text" class="actor" placeholder="First Last">
+					<input type="submit" class="submit" name="submitActor" value="Search">
+				</form>
+
+				<form class="filterRating">
+					<label for="rating">Top Rated Movies</label>
+					<img src="images/star.png">
+					<img src="images/star.png">
+					<img src="images/star.png">
+					<input type="submit" class="submit" name="submitRating" value="Search">
+				</form>
+
+				<p>Check below below for your results!</p>
+			</div>
+
+		<div class="results clearfix" id="results"></div>
+		
+		</div> <!-- End .wrapper -->
+
+		<footer>
+			<p>created by <a class="logo" href="http://katehillier.ca/">K<span class="color">a</span>te Hillier</a> |<a class="icon" href="https://github.com/krhillier" target="_blank"><i class="fa fa-github fa-lg"></i></a><a class="icon" href="http://ca.linkedin.com/in/katehillierca" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a><a class="icon" href="https://twitter.com/KateHillier_ca" target="_blank"><i class="fa fa-twitter fa-lg"></i></a><a class="icon" href="https://katehillierca.wordpress.com/" target="_blank"><i class="fa fa-wordpress fa-lg"></i></a></p>
+		</footer>
+	</div> <!-- End .container -->
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="scripts.js"></script>
+	
+</body>
+</html>
